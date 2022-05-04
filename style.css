@@ -1,0 +1,39 @@
+body{
+    display: flexS;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.burger_menu{
+    background: rgb(206, 206, 206);
+    padding: 30px;
+    border-radius: 12px;
+    transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    cursor: pointer;
+}
+
+.burger_menu div{
+    width: 110px;
+    height: 20px;
+    margin: 10px;
+    background: rgb(35, 36, 105);
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+.slide_menu{
+    border-radius: 50%;
+}
+    .slide_menu .one{
+        transform: rotate(45deg) translate(20px, 22px);
+    }
+
+    .slide_menu .two{
+        transform: translateX(-40px);
+        width: 0;
+    }
+
+    .slide_menu .three{
+        transform: rotate(-45deg) translate(20px, -22px);
+    }
